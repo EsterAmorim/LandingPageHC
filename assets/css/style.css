@@ -263,12 +263,15 @@ section{
     background: linear-gradient(-45deg, #dba61f, #b8840a, #e49f90);
 }
 @media (max-width: 991px){
+    .container{
+
+    }
     body{
         overflow-x: hidden;
         max-width: 300px;
     }
     header{
-        padding: 20px;
+        padding: 0px;
     }
     #logo a{
         max-width: 300px; ;
@@ -287,6 +290,9 @@ section{
     .content .textBox h2{
         font-size: 1.5em;
         margin-bottom: 10px;
+    }
+    .content .textBox p {
+        font-size: 9px;
     }
     .content .textBox span {
         color: #7c5b12;
