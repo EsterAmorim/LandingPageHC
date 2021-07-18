@@ -253,6 +253,9 @@ section{
     .container{
         width: 600px;
     }
+    body{
+        width: 140%;
+    }
     header{
         padding: 0px;
     }
