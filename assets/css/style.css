@@ -281,8 +281,8 @@ section{
         margin-top: 200px;
     }
     .content .textBox{
-        max-width: 100%;
-        right: 80px;
+        max-width: 73%;
+        right: 90px;
     }
     .content .textBox h2{
         font-size: 2.5em;
