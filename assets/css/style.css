@@ -203,8 +203,6 @@ section{
 #form{
     display: inline-table;
     position: relative;
-    width:350px;
-	float: center center;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -264,11 +262,10 @@ section{
 }
 @media (max-width: 991px){
     .container{
-
+        width: 600px;
     }
     body{
-        
-        
+        overflow-x: hidden;
     }
     header{
         padding: 0px;
@@ -313,6 +310,9 @@ section{
     }
     .sci{
         top: 80%;
+    }
+    #form{
+        top: 50%;
     }
     nav ul{
         display: flex;
