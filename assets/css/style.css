@@ -302,13 +302,13 @@ section{
     }
     .sci{
         top: 70%;
-        left: 100%;
+        left: 70%;
     }
     #form{
         top: 50%;
     }
     nav{ 
-        display: none;
+        display:none;
     }
    
 }   
