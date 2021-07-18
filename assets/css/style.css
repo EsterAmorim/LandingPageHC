@@ -265,6 +265,7 @@ section{
 @media (max-width: 991px){
     body{
         overflow-x: hidden;
+        max-width: 300px;
     }
     header{
         padding: 20px;
