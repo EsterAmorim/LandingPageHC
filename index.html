@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalize css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <!-- Custom style --> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>BLACK FRIDAY</title>
+  </head>
+
+  <body>
+  <section>
+    <div class="circle"></div>
+    <div id="container"> <!--start container-->
+      <header> <!--star header-->
+        <div id="logo">
+            <h1><a href="">Biscoiteiros</a></h1>
+        </div>
+      
+        <nav>
+          <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            </div>
+          <ul class="nav-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><button class="btn-1">Entrar</button></li>
+          </ul>
+        </nav>
+      </header> <!--end header-->
+        <div class="content"><!--star main content-->
+          <div class="textBox">
+            <h2>Não são apenas biscoitos <br> São <span>Biscoiteiros</span></h2>
+            <p> Prepare-se para a maior e melhor Black Friday que você pode imaginar.<br>
+                As nossas melhores receitas estão com descontos <br>IMPERDÍVEIS para você que
+                é um biscoiteiro&lpar;a&rpar; de plantão!!!
+            </p>
+            <a href="#form">QUERO RECEBER ATUALIZAÇÃO</a>
+          </div>
+          <div class="imgBox">
+            <img src="assets/images/biscoito1.png" class="cookies">
+          </div>
+        </div>
+        <ul class="thumb">
+          <li><img src="assets/images/thumb1.png" onclick="imgSlider('assets/images/biscoito1.png');changeCircleColor('#552613')"></li>
+          <li><img src="assets/images/thumb2.png" onclick="imgSlider('assets/images/biscoito2.png');changeCircleColor('#FFB16D')"></li>
+          <li><img src="assets/images/thumb3.png" onclick="imgSlider('assets/images/biscoito3.png');changeCircleColor('#F9D3B6')"></li>
+          <li><img src="assets/images/thumb4.png" onclick="imgSlider('assets/images/biscoito4.png');changeCircleColor('#FBE3B4')"></li>
+        </ul>
+        <ul class="sci">
+          <li><a href="https://github.com/EsterAmorim/LandingPageHC.git" target="_blank"><img src="assets/images/github.png"></a></li>
+          <li><a href="https://www.linkedin.com/in/ester-a-353467181" target="_blank"><img src="assets/images/linkedin.png"></a></li>
+          <li><a href="https://www.instagram.com/mortadela_frita/" target="_blank"><img src="assets/images/instagram.png"></a></li>
+        </ul>
+      </section><!--end main content-->
+        <div id="form">  <!--start form-->  
+          <form action="">
+              <h4 class="title"> Digite seu email para receber atualizações.</h4>
+              <label id= "labelName" for="username">Nome</label>
+            <div class="input">
+                  <i class="fas fa-user"></i>
+                 <input id="username"  name="username" placeholder="Nome" type="text">
+             </div>
+             <label id= "labelEmail"for="email">Email</label>
+            <div class="input">
+                 <i class="fas fa-envelope"></i>
+                <input id="email"  name="email" placeholder="Email" type="email" onblur="validateEmail()" onfocus="resetMsg()">
+                  <span id="error-email"></span>
+              </div>
+              <div id="btn">
+                  <button onclick='register()'>Inscreva-me</button>
+            </div>
+          </form>
+      </div> <!--end form-->
+      </div> <!--end container-->
+
+       <!--[if lt IE 9]>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+                   <!--Icon form-->
+    <script src="https://kit.fontawesome.com/dacdce5bda.js" crossorigin="anonymous"></script>
+                  <!--Custom Script-->
+                  <script src="assets/js/script.js"></script>
+</html>
