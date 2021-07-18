@@ -253,9 +253,6 @@ section{
     .container{
         width: 600px;
     }
-    body{
-        overflow-x: hidden;
-    }
     header{
         padding: 0px;
     }
@@ -305,10 +302,5 @@ section{
     #form{
         top: 50%;
     }
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        align-items: center center;
-
-    }
+   
 }   
