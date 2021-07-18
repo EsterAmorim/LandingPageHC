@@ -265,6 +265,8 @@ section{
     .content{
         flex-direction: column;
         margin-top: 200px;
+        display: inline-flex;
+        align-items: center;
     }
     .content .textBox{
         max-width: 74%;
