@@ -302,5 +302,8 @@ section{
     #form{
         top: 50%;
     }
+    nav{ 
+        display: none;
+    }
    
 }   
